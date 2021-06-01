@@ -10,6 +10,7 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: white;
 }
 
 .attribution a {
@@ -32,12 +33,13 @@ body {
 }
 
 .container section {
-  background: #aa5cdb;
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
 }
 
 .container section img {
+  -webkit-filter: brightness(40%) sepia(100%) hue-rotate(-130deg) saturate(600%) contrast(0.8);
+          filter: brightness(40%) sepia(100%) hue-rotate(-130deg) saturate(600%) contrast(0.8);
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
   width: 100%;
